@@ -1,0 +1,249 @@
+body {
+	background-color: rgb(58, 21, 11, .1);
+	/* font-family: 'Nunito', sans-serif;
+    font-family: 'Josefin Sans', sans-serif; */
+    color: rgb(39, 39, 39);
+}
+
+.green-underline {
+    border-bottom: 1px solid green;
+}
+
+ul li.active a{
+    border-bottom: 2px solid green;
+    color:black;
+    padding-bottom:3px;
+ }
+
+h4 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+h6 {
+    color: rgb(44, 43, 43);
+    padding-top: 15px;
+    font-weight: bolder;
+}
+p {
+    text-align: left;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    font-family: cursive;
+    /* The padding will not increase the box when will add padding to a box */
+}
+
+.logo-plus-nav {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 10px 10px;
+}
+
+.social.d-flex li a {
+    font-size: 15px;
+}
+
+ul li a {
+    color: rgb(59, 59, 59);
+    /* background-color: red; */
+	text-decoration: none;
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+
+ul li a:hover {
+	color: rgb(78, 221, 140);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 18px;
+    border-bottom: px solid rgb(78, 221, 140);
+}
+
+.green {
+    color: rgb(78, 221, 140);
+}
+
+.special-nav, .special-nav:hover {
+    background-color:  rgb(78, 221, 140);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.nav-link.special-nav {
+    color: white;
+}
+
+.after-nav {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    padding: 20px 20px;
+    /* height: 350px; */
+}
+
+.top-padding1 {
+    padding-top: 100px;
+}
+
+.top-padding2 {
+    padding-top: 30px;
+}
+
+.social li a {
+    color: white;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+.social li {
+    list-style: none;
+    margin-right: 20px;    
+}
+
+.underline {
+    width: 80px;
+    height: 2px; 
+    margin: 0 auto;
+    background-color: green
+}
+
+
+
+  .grey-bg {
+      background-color: rgb(179, 176, 176, 0.7);
+      height: 80px;
+  }
+
+  .small-text1 {
+      font-weight: bolder;
+      padding-left: 20px;
+      
+  }
+
+  .small-text2 {
+      font-size: smaller;
+      padding-left: 20px;
+  }
+
+  .container.works {
+      width: 800px;
+  }
+
+  .content-right2 {
+      width:230px;
+      height: 270px;
+  }
+
+  .box1 {
+    /* background: url(../images/work1.png); */
+    background-size: cover;
+    background-position: center;
+    padding-top: 25%;
+    margin-right: 10px;
+    
+}
+
+.box2 {
+    /* background: url(../images/work2.jpeg); */
+    background-size: cover;
+    background-position: center;
+}
+
+.box3 {
+    /* background: url(../images/work3.jpeg); */
+    background-size: cover;
+    background-position: center;
+    padding-top: 25%;
+}
+
+.box6 {
+    /* background: url(../images/work4.jpeg); */
+    background-size: cover;
+    background-position: center;
+    padding-top: 25%;
+}
+
+.box7 {
+    /* background: url(../images/work5.jpeg); */
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    padding-top: 25%;
+}
+
+.box8 {
+    /* background: url(../images/work6.jpeg); */
+    background-size: cover;
+    background-position: center;
+    padding-top: 25%;
+}
+
+.content-right2 a, .content-right2 {
+    color: black;
+    text-decoration: none;
+}
+
+  footer {
+      background-color: rgb(39, 39, 39);
+      color: white;
+      padding: 10px 10px;
+      margin-top: 10px;
+      font-weight: lighter;
+  }
+
+  .contact-tablet {
+      height: 100px;
+      background-color: lightgray;
+      margin: 20px 0;
+      padding: 15px;
+  }
+
+  input, textarea {
+        width: 100%;
+        margin: 10px;
+        border: 1px solid rgb(107, 107, 107);
+  }
+
+  input {
+    height: 50px;
+  }
+
+  .t img {
+      height: 200px;
+      width: 100%;
+  }
+
+  .portfolio-padding {
+      padding: 50px 20px;
+  }
+
+  .row a {
+      text-decoration: none;
+      color: black;
+  }
+
+iframe {
+	width: 100%;
+}
+
+
+
+
+
+.mobile-nav {
+	display: none;
+}
+
+@media only screen and (max-width: 567px){
+	.desktop-nav{
+		display: none;
+	}
+	
+	.mobile-nav{
+		display: block;
+	}	
+}
